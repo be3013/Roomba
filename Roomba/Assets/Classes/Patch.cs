@@ -15,6 +15,7 @@ namespace Assets.Classes
         public Color Color { get; set; }
         public bool Scouted { get; set; }
         public bool Clean { get; set; }
+        public int StraightCleans { get; set; }
 
         public Patch(GameObject plane)
         {
